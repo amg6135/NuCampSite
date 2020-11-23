@@ -17,6 +17,7 @@ header h2 {
 footer {
     background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
+    margin:0;
 }
 
 .jumbotron {
@@ -34,4 +35,17 @@ footer {
 
 .navbar{
     background-color: #901CAD;
+}
+
+.tab-content{
+    border:1px solid #DDD;
+    border-top:none;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
 }
