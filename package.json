@@ -10,17 +10,19 @@
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
   "author": "Andrea G",
   "license": "ISC",
+  "homepage": "https://amg6135.github.io/NucampSitePage",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.1.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
